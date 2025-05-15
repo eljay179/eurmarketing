@@ -17,20 +17,20 @@ export default function Home() {
 
           {/* Text content on the right */}
           <div className="text-center md:text-left">
-            <h1 className="text-5xl sm:text-6xl md:text-7xl  mb-6 leading-tight animate-fade-in-down">
+            <h1 className="text-3xl sm:text-3xl md:text-4xl  mb-6 leading-tight animate-fade-in-down">
               Eurikaa: Where every post becomes a destination.
             </h1>
-            <p className="text-lg sm:text-xl md:text-2xl mb-8 leading-relaxed animate-fade-in-up">
+            <p className="text-lg sm:text-lg md:text-xl mb-8 leading-relaxed animate-fade-in-up">
               Eurikaa is a location-driven social app designed for travel influencers, mobile vendors, and explorers,
               providing an optimized platform for connecting people through place. Unlike traditional social media,
               it puts location at the heart of content and discovery, making every place a connection point.
             </p>
             <div className="flex flex-col sm:flex-row justify-center md:justify-start items-center space-y-4 sm:space-y-0 sm:space-x-4 animate-fade-in-up animation-delay-600">
-              <a href="#download-eurikaa" className="bg-white text-purple-600 font-semibold py-3 px-8 rounded-lg shadow-md hover:bg-gray-100 transition-colors duration-300 transform hover:scale-105 flex items-center space-x-2">
- <img src="/AppStoreBadge.svg" alt="App Store" className="h-8" />
+              <a href="#download-eurikaa">
+ <img src="/AppStoreBadge.svg" alt="Download on the App Store" className="w-40 h-auto" />
               </a>
-              <a href="#download-eurikaa" className="bg-white text-purple-600 font-semibold py-3 px-8 rounded-lg shadow-md hover:bg-gray-100 transition-colors duration-300 transform hover:scale-105 flex items-center space-x-2">
- <img src="/GooglePlayBadge.png" alt="Google Play" className="h-8" />
+              <a href="#download-eurikaa">
+ <img src="/GooglePlayBadge.png" alt="Get it on Google Play" className="w-40 h-auto" />
               </a>
             </div>
           </div>
@@ -41,10 +41,10 @@ export default function Home() {
       <section className="problem-solution-section py-16 sm:py-24 px-6 bg-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-gray-800">
-            Bringing Your Stories to Life with Precise Location
+            Bringing Your Stories to Life
           </h2>
           <p className="text-lg text-gray-600 mb-10 leading-relaxed">
-            We enjoy sharing our experiences – taking pictures and short videos, and posting our stories for our friends, family, and followers.
+            We enjoy sharing our experiences by taking pictures and short videos, and posting our stories for our friends, family, and followers.
             However, one essential element is missing to truly bring these stories to life: <strong className="text-blue-600">Precise Location.</strong>
           </p>
           <h3 className="text-2xl sm:text-3xl font-semibold mb-4 text-purple-600">
@@ -65,6 +65,7 @@ export default function Home() {
             Discover the Power of <span className="text-blue-600">Eurikaa</span>
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-10">
+                    
             {/* Feature 1: Precise Location Tagging */}
             <div className="feature-card bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-1">
               <MapPin className="w-12 h-12 text-purple-600 mb-4" />
@@ -82,28 +83,11 @@ export default function Home() {
               />
             </div>
 
-            {/* Feature 2: For Travel Influencers */}
-            <div className="feature-card bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-1">
-              <Users className="w-12 h-12 text-purple-600 mb-4" />
-              
-              <h3 className="text-2xl font-semibold mb-3 text-gray-800">Share Your Adventures, Monetize Your Discoveries.</h3>
-              <p className="text-gray-600 mb-4 leading-relaxed">
-                Empower your travel stories with exact locations. Give your followers a richer, more immersive experience and enable them to follow in your footsteps.
-                Unlock new monetization opportunities.
-              </p>
-              <img
-                src="https://placehold.co/400x225/c4b5fd/333333?text=Travel+Influencer+Lifestyle"
-                alt="Travel Influencer Lifestyle"
-                className="rounded-lg shadow-md mx-auto"
-                onError={(e) => (e.currentTarget.src = 'https://placehold.co/400x225/cccccc/333333?text=Image+Not+Found')}
-              />
-            </div>
-
-            {/* Feature 3: For Mobile Vendors */}
+            {/* Feature 2: For Mobile Vendors */}
             <div className="feature-card bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-1">
               <BarChart className="w-12 h-12 text-purple-600 mb-4" />
               
-              <h3 className="text-2xl font-semibold mb-3 text-gray-800">Connect With Customers, Wherever You Are.</h3>
+              <h3 className="text-2xl font-semibold mb-3 text-gray-800">Connect With Customers, Where You Are.</h3>
               <p className="text-gray-600 mb-4 leading-relaxed">
                 Drive more customers to your location by notifying followers where you are or will be. Make it easy for customers to find you daily,
                 see current offerings, and get updates on specials.
@@ -116,11 +100,11 @@ export default function Home() {
               />
             </div>
 
-            {/* Feature 4: For Explorers */}
+            {/* Feature 3: For Explorers */}
             <div className="feature-card bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-1">
               <Lightbulb className="w-12 h-12 text-purple-600 mb-4" />
               
-              <h3 className="text-2xl font-semibold mb-3 text-gray-800">Discover the Undiscovered, Share Your Journey.</h3>
+              <h3 className="text-2xl font-semibold mb-3 text-gray-800">Discover Places, Share Your Journey.</h3>
               <p className="text-gray-600 mb-4 leading-relaxed">
                 Share your adventures with precision, turning ordinary posts into immersive stories tied to exact locations.
                 Discover hidden gems and connect with like-minded individuals.
@@ -132,13 +116,34 @@ export default function Home() {
                 onError={(e) => (e.currentTarget.src = 'https://placehold.co/400x225/cccccc/333333?text=Image+Not+Found')}
               />
             </div>
+
+
+            {/* Feature 4: For Travel Influencers */}
+            <div className="feature-card bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-1">
+              <Users className="w-12 h-12 text-purple-600 mb-4" />
+              
+              <h3 className="text-2xl font-semibold mb-3 text-gray-800">Share Adventures, Monetize Discoveries.</h3>
+              <p className="text-gray-600 mb-4 leading-relaxed">
+                Empower your travel stories with exact locations. Give your followers a richer, more immersive experience and enable them to follow in your footsteps.
+                Unlock new monetization opportunities.
+              </p>
+              <img
+                src="https://placehold.co/400x225/c4b5fd/333333?text=Travel+Influencer+Lifestyle"
+                alt="Travel Influencer Lifestyle"
+                className="rounded-lg shadow-md mx-auto"
+                onError={(e) => (e.currentTarget.src = 'https://placehold.co/400x225/cccccc/333333?text=Image+Not+Found')}
+              />
+            </div>
+
+            
           </div>
 
           {/* Key App Functionalities Sub-section */}
           <div className="mt-16 pt-10 border-t border-gray-300">
             <h3 className="text-3xl font-bold text-center mb-10 text-gray-800">More Unique Features</h3>
             <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 text-lg text-gray-700">
-              {[
+              {
+                [
                 "Self-Curated Home Screen: Filter by Interests, Near Me, People, Location.",
                 "Events: Discover and share time-sensitive 'WhereAbouts'.",
                 "Groups: Connect with others who share your passions.",
@@ -191,17 +196,15 @@ export default function Home() {
             Download Eurikaa today and start turning your posts into destinations.
             Connect with the world in a whole new way.
           </p>
-          <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
+           <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
             <a
               href="#download-eurikaa-final" // Replace with actual App Store link
-              className="bg-white text-purple-600 font-semibold py-3 px-8 rounded-lg shadow-md hover:bg-gray-100 transition-colors duration-300 transform hover:scale-105 flex items-center space-x-2"
             >
- <img src="/AppStoreBadge.svg" alt="App Store" className="h-8" />            </a>
+ <img src="/AppStoreBadge.svg" alt="Download on the App Store" className="w-40 h-auto" />            </a>
             <a
               href="#download-eurikaa-final" // Replace with actual Google Play link
-              className="bg-white text-purple-600 font-semibold py-3 px-8 rounded-lg shadow-md hover:bg-gray-100 transition-colors duration-300 transform hover:scale-105 flex items-center space-x-2"
             >
-              <img src="GooglePlayBadge.png" alt="Google Play" className="h-8" />
+              <img src="GooglePlayBadge.png" alt="Get it on Google Play" className="w-40 h-auto" />
             </a>
           </div>
         </div>
@@ -242,10 +245,10 @@ export default function Home() {
               <h3 className="text-xl font-semibold text-white mb-3">Get the App</h3>
               <div className="flex space-x-3 mb-4">
                  <a href="#app-store-footer">
- <img src="/AppStoreBadge.svg" alt="App Store" className="h-10 rounded" />
+ <img src="/AppStoreBadge.svg" alt="Download on the App Store" className="h-10 rounded" />
                  </a>
                  <a href="#google-play-footer">
- <img src="/GooglePlayBadge.png" alt="Google Play" className="h-10 rounded" />
+ <img src="/GooglePlayBadge.png" alt="Get it on Google Play" className="h-10 rounded" />
                  </a>
               </div>
               <h3 className="text-xl font-semibold text-white mb-2 mt-4">Legal</h3>
