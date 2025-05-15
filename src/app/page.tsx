@@ -1,6 +1,6 @@
  'use client'
-
-import { Apple, Play, MapPin, Users, BarChart, Lightbulb, MessageCircle, Sparkles } from 'lucide-react';
+import Image from 'next/image';
+import { MapPin, Users, BarChart, Lightbulb, Sparkles } from 'lucide-react';
 import { Rubik } from 'next/font/google'; // Import Rubik font
 
 const rubik = Rubik({ subsets: ['latin'] }); // Initialize Rubik font
@@ -12,7 +12,12 @@ export default function Home() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           {/* Image on the left */}
           <div className="flex justify-center md:justify-end">
-            <img src="/wb-home.png" alt="Eurikaa Home Screen" className="w-full max-w-sm" />
+            <Image
+              src="/wb-home.png"
+              alt="Eurikaa Home Screen"
+              width={384} // Estimated width for w-full max-w-sm
+              height={700} // Estimated height to maintain aspect ratio
+            />
           </div>
 
           {/* Text content on the right */}
@@ -27,10 +32,20 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row justify-center md:justify-start items-center space-y-4 sm:space-y-0 sm:space-x-4 animate-fade-in-up animation-delay-600">
               <a href="#download-eurikaa">
- <img src="/AppStoreBadge.svg" alt="Download on the App Store" className="w-40 h-auto" />
+ <Image
+ src="/AppStoreBadge.svg"
+ alt="Download on the App Store"
+ width={160} // Estimated width for w-40 h-auto
+ height={48} // Estimated height
+ />
               </a>
               <a href="#download-eurikaa">
- <img src="/GooglePlayBadge.png" alt="Get it on Google Play" className="w-40 h-auto" />
+ <Image
+ src="/GooglePlayBadge.png"
+ alt="Get it on Google Play"
+ width={160} // Estimated width for w-40 h-auto
+ height={48} // Estimated height
+ />
               </a>
             </div>
           </div>
@@ -76,11 +91,11 @@ export default function Home() {
                 Turn your photos and videos into findable experiences.
               </p>
               <img
-                src="https://placehold.co/400x225/e9d5ff/333333?text=Precise+Map+View"
+ src="https://placehold.co/400x225/e9d5ff/333333?text=Precise+Map+View"
                 alt="Precise Map View"
                 className="rounded-lg shadow-md mx-auto"
                 onError={(e) => (e.currentTarget.src = 'https://placehold.co/400x225/cccccc/333333?text=Image+Not+Found')}
-              />
+/>
             </div>
 
             {/* Feature 2: For Mobile Vendors */}
@@ -93,11 +108,11 @@ export default function Home() {
                 see current offerings, and get updates on specials.
               </p>
               <img
-                src="https://placehold.co/400x225/a5b4fc/333333?text=Mobile+Vendor+Scenario"
+ src="https://placehold.co/400x225/a5b4fc/333333?text=Mobile+Vendor+Scenario"
                 alt="Mobile Vendor Scenario"
                 className="rounded-lg shadow-md mx-auto"
                 onError={(e) => (e.currentTarget.src = 'https://placehold.co/400x225/cccccc/333333?text=Image+Not+Found')}
-              />
+/>
             </div>
 
             {/* Feature 3: For Explorers */}
@@ -110,11 +125,11 @@ export default function Home() {
                 Discover hidden gems and connect with like-minded individuals.
               </p>
               <img
-                src="https://placehold.co/400x225/818cf8/333333?text=Explorer+Adventure"
+ src="https://placehold.co/400x225/818cf8/333333?text=Explorer+Adventure"
                 alt="Explorer Adventure"
                 className="rounded-lg shadow-md mx-auto"
                 onError={(e) => (e.currentTarget.src = 'https://placehold.co/400x225/cccccc/333333?text=Image+Not+Found')}
-              />
+/>
             </div>
 
 
@@ -128,11 +143,11 @@ export default function Home() {
                 Unlock new monetization opportunities.
               </p>
               <img
-                src="https://placehold.co/400x225/c4b5fd/333333?text=Travel+Influencer+Lifestyle"
+ src="https://placehold.co/400x225/c4b5fd/333333?text=Travel+Influencer+Lifestyle"
                 alt="Travel Influencer Lifestyle"
                 className="rounded-lg shadow-md mx-auto"
                 onError={(e) => (e.currentTarget.src = 'https://placehold.co/400x225/cccccc/333333?text=Image+Not+Found')}
-              />
+/>
             </div>
 
             
@@ -172,16 +187,31 @@ export default function Home() {
           </p>
           {/* Placeholder for Testimonials */}
           <div className="italic text-gray-500 mb-6">
-            <p>"Hear from our early adopters soon!"</p>
-            <p>"See what Eurikaa users will be saying..."</p>
+            <p>&quot;Hear from our early adopters soon!&quot;</p>
+            <p>&quot;See what Eurikaa users will be saying...&quot;</p>
           </div>
           {/* Placeholder for "As Seen In" / Partner Logos */}
           <div className="mt-8">
             <h3 className="text-xl font-semibold text-gray-700 mb-4">Future Partners & Collaborators</h3>
             <div className="flex justify-center items-center space-x-6 grayscale opacity-75">
-              <img src="https://placehold.co/120x60/cccccc/333333?text=Partner+1" alt="Partner Logo 1" className="h-10 sm:h-12" />
-              <img src="https://placehold.co/120x60/cccccc/333333?text=Partner+2" alt="Partner Logo 2" className="h-10 sm:h-12" />
-              <img src="https://placehold.co/120x60/cccccc/333333?text=Partner+3" alt="Partner Logo 3" className="h-10 sm:h-12" />
+              <Image
+                src="https://placehold.co/120x60/cccccc/333333?text=Partner+1"
+                alt="Partner Logo 1"
+                width={120} // Estimated width
+                height={48} // Estimated height for h-10 sm:h-12
+              />
+              <Image
+                src="https://placehold.co/120x60/cccccc/333333?text=Partner+2"
+                alt="Partner Logo 2"
+                width={120} // Estimated width
+                height={48} // Estimated height for h-10 sm:h-12
+              />
+              <Image
+                src="https://placehold.co/120x60/cccccc/333333?text=Partner+3"
+                alt="Partner Logo 3"
+                width={120} // Estimated width
+                height={48} // Estimated height for h-10 sm:h-12
+              />
             </div>
             <p className="text-sm text-gray-500 mt-2">(Partnering with food truck associations and more!)</p>
           </div>
@@ -200,11 +230,22 @@ export default function Home() {
             <a
               href="#download-eurikaa-final" // Replace with actual App Store link
             >
- <img src="/AppStoreBadge.svg" alt="Download on the App Store" className="w-40 h-auto" />            </a>
+ <Image
+ src="/AppStoreBadge.svg"
+ alt="Download on the App Store"
+ width={160} // Estimated width for w-40 h-auto
+ height={48} // Estimated height
+ />
+            </a>
             <a
               href="#download-eurikaa-final" // Replace with actual Google Play link
             >
-              <img src="GooglePlayBadge.png" alt="Get it on Google Play" className="w-40 h-auto" />
+              <Image
+ src="/GooglePlayBadge.png"
+ alt="Get it on Google Play"
+ width={160} // Estimated width for w-40 h-auto
+ height={48} // Estimated height
+ />
             </a>
           </div>
         </div>
@@ -245,10 +286,22 @@ export default function Home() {
               <h3 className="text-xl font-semibold text-white mb-3">Get the App</h3>
               <div className="flex space-x-3 mb-4">
                  <a href="#app-store-footer">
- <img src="/AppStoreBadge.svg" alt="Download on the App Store" className="h-10 rounded" />
+ <Image
+ src="/AppStoreBadge.svg"
+ alt="Download on the App Store"
+ width={135} // Estimated width for h-10 rounded
+ height={40} // Estimated height for h-10 rounded
+ className="rounded"
+ />
                  </a>
                  <a href="#google-play-footer">
- <img src="/GooglePlayBadge.png" alt="Get it on Google Play" className="h-10 rounded" />
+ <Image
+ src="/GooglePlayBadge.png"
+ alt="Get it on Google Play"
+ width={135} // Estimated width for h-10 rounded
+ height={40} // Estimated height for h-10 rounded
+ className="rounded"
+ />
                  </a>
               </div>
               <h3 className="text-xl font-semibold text-white mb-2 mt-4">Legal</h3>
