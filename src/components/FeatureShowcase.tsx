@@ -19,11 +19,12 @@ const FeatureShowcase: React.FC = () => {
  Every post is linked to a precise GPS location. Share your exact spot and let others discover the world through your eyes.
  Turn your photos and videos into findable experiences.
  </p>
- <img
+ <Image
  src="https://placehold.co/400x225/e9d5ff/333333?text=Precise+Map+View"
  alt="Precise Map View"
+ width={400}
+ height={225}
  className="rounded-lg shadow-md mx-auto"
- onError={(e) => (e.currentTarget.src = 'https://placehold.co/400x225/cccccc/333333?text=Image+Not+Found')}
  />
  </div>
 
@@ -36,11 +37,12 @@ const FeatureShowcase: React.FC = () => {
  Drive more customers to your location by notifying followers where you are or will be. Make it easy for customers to find you daily,
  see current offerings, and get updates on specials.
  </p>
- <img
+ <Image
  src="https://placehold.co/400x225/a5b4fc/333333?text=Mobile+Vendor+Scenario"
  alt="Mobile Vendor Scenario"
+ width={400}
+ height={225}
  className="rounded-lg shadow-md mx-auto"
- onError={(e) => (e.currentTarget.src = 'https://placehold.co/400x225/cccccc/333333?text=Image+Not+Found')}
  />
  </div>
 
@@ -53,11 +55,12 @@ const FeatureShowcase: React.FC = () => {
  Share your adventures with precision, turning ordinary posts into immersive stories tied to exact locations.
  Discover hidden gems and connect with like-minded individuals.
  </p>
- <img
+ <Image
  src="https://placehold.co/400x225/818cf8/333333?text=Explorer+Adventure"
  alt="Explorer Adventure"
+ width={400}
+ height={225}
  className="rounded-lg shadow-md mx-auto"
- onError={(e) => (e.currentTarget.src = 'https://placehold.co/400x225/cccccc/333333?text=Image+Not+Found')}
  />
  </div>
 
@@ -71,11 +74,12 @@ const FeatureShowcase: React.FC = () => {
  Empower your travel stories with exact locations. Give your followers a richer, more immersive experience and enable them to follow in your footsteps.
  Unlock new monetization opportunities.
  </p>
- <img
+ <Image
  src="https://placehold.co/400x225/c4b5fd/333333?text=Travel+Influencer+Lifestyle"
  alt="Travel Influencer Lifestyle"
+ width={400}
+ height={225}
  className="rounded-lg shadow-md mx-auto"
- onError={(e) => (e.currentTarget.src = 'https://placehold.co/400x225/cccccc/333333?text=Image+Not+Found')}
  />
  </div>
 

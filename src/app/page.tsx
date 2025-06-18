@@ -1,6 +1,5 @@
 'use client';
 
-import Image from 'next/image';
 import HeroSection from '@/components/HeroSection';
 import ProblemSolution from '@/components/ProblemSolution';
 import FeatureShowcase from '@/components/FeatureShowcase';

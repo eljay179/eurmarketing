@@ -1,9 +1,6 @@
 'use client';
 
 import Image from 'next/image';
-import { Rubik } from 'next/font/google';
-
-const rubik = Rubik({ subsets: ['latin'] });
 
 const HeroSection = () => {
   return (
