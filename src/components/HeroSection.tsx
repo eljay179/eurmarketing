@@ -22,8 +22,8 @@ const HeroSection = () => {
             Eurikaa: Where every post becomes a destination.
           </h1>
           <p className="text-lg sm:text-lg md:text-xl mb-8 leading-relaxed animate-fade-in-up">
-            Eurikaa is a location-driven social app designed for travel
-            influencers, mobile vendors, and explorers, providing an optimized
+            Eurikaa is a location-driven social app designed for mobile vendors, travel
+            influencers, and explorers, providing an optimized
             platform for connecting people through place. Unlike traditional
             social media, it puts location at the heart of content and
             discovery, making every place a connection point.
