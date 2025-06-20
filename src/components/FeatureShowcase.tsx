@@ -25,6 +25,7 @@ const FeatureShowcase: React.FC = () => {
               width={400}
               height={225}
               className="rounded-lg shadow-md mx-auto w-full h-auto" // Added w-full h-auto for responsiveness
+            />
           </div>
 
           {/* Feature 2: Local Discovery: Reach New Customers Near You */}
@@ -41,6 +42,7 @@ const FeatureShowcase: React.FC = () => {
               width={400}
               height={225}
               className="rounded-lg shadow-md mx-auto w-full h-auto" // Added w-full h-auto for responsiveness
+            />
           </div>
 
           {/* Feature 3: Real-Time Availability: Customers Always Know When to Find You */}
@@ -57,6 +59,7 @@ const FeatureShowcase: React.FC = () => {
               width={400}
               height={225}
               className="rounded-lg shadow-md mx-auto w-full h-auto" // Added w-full h-auto for responsiveness
+            />
           </div>
 
           {/* Feature 4: Unified Social Sharing: Post Once, Reach Everywhere */}
@@ -73,6 +76,7 @@ const FeatureShowcase: React.FC = () => {
               width={400}
               height={225}
               className="rounded-lg shadow-md mx-auto w-full h-auto" // Added w-full h-auto for responsiveness
+            />
           </div>
 
         </div>
