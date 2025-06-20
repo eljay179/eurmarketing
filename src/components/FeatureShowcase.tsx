@@ -1,6 +1,5 @@
 import React from 'react'; // Import React as this is a React component
 import { MapPin, Users, Clock, Share2, Sparkles } from 'lucide-react';
-import Image from 'next/image';
 
 const FeatureShowcase: React.FC = () => {
   return (

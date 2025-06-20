@@ -1,7 +1,5 @@
 import React from 'react';
-// Note: In a real Next.js environment, you would use `import Image from 'next/image';`
-// For this standalone component in the Canvas, we will use standard `<img>` tags
-// and placeholder image URLs.
+import Image from 'next/image';
 
 const HeroSection = () => {
   return (
@@ -13,9 +11,22 @@ const HeroSection = () => {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center relative z-10">
         {/* Image on the left - Enhanced for modern appeal */}
         <div className="flex justify-center md:justify-end">
-          {/* Replaced Next.js Image with standard <img> and a placeholder URL */}
-          <img
-            src="/iPhone 14 Pro - Clay.png" // Placeholder for wb-home.png
+          <Image
+            src="/hero-background.png"
+            alt="Eurikaa Hero Background"
+            layout="fill"
+            objectFit="cover"
+            className="absolute inset-0 w-full h-full"
+          />
+          <Image
+            src="/Eurikaa Main Dark.svg"
+            alt="Eurikaa Logo"
+            width={100}
+            height={48}
+            className="h-12 mb-6 mx-auto"
+          />
+          <Image
+            src="/wb-home.png"
             alt="Eurikaa Home Screen"
             className="w-full max-w-sm lg:max-w-md h-auto object-contain rounded-3xl shadow-2xl transform transition-transform duration-500 hover:scale-105"
           />
@@ -36,7 +47,7 @@ const HeroSection = () => {
           <div className="flex flex-col sm:flex-row justify-center md:justify-start items-center space-y-4 sm:space-y-0 sm:space-x-4 animate-fade-in-up animation-delay-600 mt-10">
             {/* App Store Button - now using the badge image */}
             <a href="#download-app-store"> {/* Placeholder link */}
-              <img
+              <Image
                 src="/AppStoreBadge.svg" // Placeholder for AppStoreBadge.svg
                 alt="Download on the App Store"
                 width={160}
@@ -46,7 +57,7 @@ const HeroSection = () => {
             </a>
             {/* Google Play Button - now using the badge image */}
             <a href="#download-google-play"> {/* Placeholder link */}
-              <img
+              <Image
                 src="/GooglePlayBadge.png" // Placeholder for GooglePlayBadge.png
                 alt="Get it on Google Play"
                 width={160}
