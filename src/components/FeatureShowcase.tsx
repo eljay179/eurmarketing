@@ -33,7 +33,7 @@ const FeatureShowcase: React.FC = () => {
             <Users className="w-12 h-12 text-purple-600 mb-4" />
             <h3 className="text-2xl font-semibold mb-3 text-gray-800">Local Discovery: Reach New Customers Near You</h3>
             <p className="text-gray-600 mb-4 leading-relaxed">
-              Expand your reach far beyond your current followers. Eurikaa automatically <span className="font-bold">broadcasts your posts to every potential customer</span> within a 10-mile radius, even if they haven't discovered you yet. This powerful <span className="font-bold">local discovery feature</span> puts your stand in front of thousands of new eyes, driving organic growth and attracting a wider audience.
+              Expand your reach far beyond your current followers. Eurikaa automatically <span className="font-bold">broadcasts your posts to every potential customer</span> within a 10-mile radius, even if they haven&apos;t discovered you yet. This powerful <span className="font-bold">local discovery feature</span> puts your stand in front of thousands of new eyes, driving organic growth and attracting a wider audience.
             </p>
             {/* Replaced Next.js Image component with a standard <img> tag */}
             <Image
