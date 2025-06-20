@@ -11,23 +11,13 @@ const HeroSection = () => {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center relative z-10">
         {/* Image on the left - Enhanced for modern appeal */}
         <div className="flex justify-center md:justify-end">
+          
+          
           <Image
-            src="/hero-background.png"
-            alt="Eurikaa Hero Background"
-            layout="fill"
-            objectFit="cover"
-            className="absolute inset-0 w-full h-full"
-          />
-          <Image
-            src="/Eurikaa Main Dark.svg"
-            alt="Eurikaa Logo"
-            width={100}
-            height={48}
-            className="h-12 mb-6 mx-auto"
-          />
-          <Image
-            src="/wb-home.png"
+            src="/iPhone 14 Pro - Clay.png"
             alt="Eurikaa Home Screen"
+ width={500}
+ height={800}
             className="w-full max-w-sm lg:max-w-md h-auto object-contain rounded-3xl shadow-2xl transform transition-transform duration-500 hover:scale-105"
           />
         </div>
