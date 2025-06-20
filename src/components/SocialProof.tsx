@@ -5,25 +5,25 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const testimonials = [
   {
     id: 1,
-    quote: "Eurikaa has transformed how I discover local gems! As a mobile vendor, finding new spots to set up has never been easier. Highly recommend!",
+    quote: "eurikaa has transformed how I discover local gems! As a mobile vendor, finding new spots to set up has never been easier. Highly recommend!",
     author: "Maria S.",
     title: "Mobile Vendor"
   },
   {
     id: 2,
-    quote: "As a travel influencer, authentic experiences are key. Eurikaa connects me with unique, location-based adventures that truly stand out.",
+    quote: "As a travel influencer, authentic experiences are key. eurikaa connects me with unique, location-based adventures that truly stand out.",
     author: "David L.",
     title: "Travel Influencer"
   },
   {
     id: 3,
-    quote: "I love exploring new places, and Eurikaa makes it so simple to find hidden treasures around me. It's my go-to app for local discovery!",
+    quote: "I love exploring new places, and eurikaa makes it so simple to find hidden treasures around me. It's my go-to app for local discovery!",
     author: "Sarah J.",
     title: "Everyday Explorer"
   },
   {
     id: 4,
-    quote: "The community aspect of Eurikaa is fantastic. It's more than just an app; it's a way to connect with others who love to explore.",
+    quote: "The community aspect of eurikaa is fantastic. It's more than just an app; it's a way to connect with others who love to explore.",
     author: "Omar K.",
     title: "Community Member"
   }
@@ -59,7 +59,7 @@ const SocialProof: React.FC = () => {
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-gray-800">Hear From Our Community</h2>
         <p className="text-lg text-gray-600 mb-12 leading-relaxed">
-          Eurikaa is connecting millions of mobile vendors, travel influencers, and everyday explorers to authentic, location-based experiences.
+          eurikaa is connecting millions of mobile vendors, travel influencers, and everyday explorers to authentic, location-based experiences.
         </p>
 
         {/* Testimonial Carousel Container */}

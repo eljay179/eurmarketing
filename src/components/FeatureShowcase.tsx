@@ -15,7 +15,7 @@ const FeatureShowcase: React.FC = () => {
             <MapPin className="w-12 h-12 text-purple-600 mb-4" />
             <h3 className="text-2xl font-semibold mb-3 text-gray-800">Pinpoint Navigation: Guide Customers Directly to You</h3>
             <p className="text-gray-600 mb-4 leading-relaxed">
-              Stop losing customers to the scroll. Eurikaa provides <span className="font-bold">ultra-precise directions</span> (within 3 meters) directly to your physical stand. This means more foot traffic, more sales, and less time wasted trying to explain your location. Get customers to your stand, not just your feed, and watch your engagement soar.
+              Stop losing customers to the scroll. eurikaa provides <span className="font-bold">ultra-precise directions</span> (within 3 meters) directly to your physical stand. This means more foot traffic, more sales, and less time wasted trying to explain your location. Get customers to your stand, not just your feed, and watch your engagement soar.
             </p>
             
           </div>
@@ -25,7 +25,7 @@ const FeatureShowcase: React.FC = () => {
             <Users className="w-12 h-12 text-purple-600 mb-4" />
             <h3 className="text-2xl font-semibold mb-3 text-gray-800">Local Discovery: Reach New Customers Near You</h3>
             <p className="text-gray-600 mb-4 leading-relaxed">
-              Expand your reach far beyond your current followers. Eurikaa automatically <span className="font-bold">broadcasts your posts to every potential customer</span> within a 10-mile radius, even if they haven&apos;t discovered you yet. This powerful <span className="font-bold">local discovery feature</span> puts your stand in front of thousands of new eyes, driving organic growth and attracting a wider audience.
+              Expand your reach far beyond your current followers. eurikaa automatically <span className="font-bold">broadcasts your posts to every potential customer</span> within a 10-mile radius, even if they haven&apos;t discovered you yet. This powerful <span className="font-bold">local discovery feature</span> puts your stand in front of thousands of new eyes, driving organic growth and attracting a wider audience.
             </p>
             
           </div>
@@ -35,7 +35,7 @@ const FeatureShowcase: React.FC = () => {
             <Clock className="w-12 h-12 text-purple-600 mb-4" />
             <h3 className="text-2xl font-semibold mb-3 text-gray-800">Real-Time Availability: Customers Always Know When to Find You</h3>
             <p className="text-gray-600 mb-4 leading-relaxed">
-              Never miss a customer again due to outdated information. Eurikaa allows you to <span className="font-bold">instantly publish and update your hours of operation</span>, special events, and availability in real-time. Your customers will always know exactly when and where to find you, leading to improved customer satisfaction and consistent business.
+              Never miss a customer again due to outdated information. eurikaa allows you to <span className="font-bold">instantly publish and update your hours of operation</span>, special events, and availability in real-time. Your customers will always know exactly when and where to find you, leading to improved customer satisfaction and consistent business.
             </p>
             
           </div>
@@ -45,7 +45,7 @@ const FeatureShowcase: React.FC = () => {
             <Share2 className="w-12 h-12 text-purple-600 mb-4" />
             <h3 className="text-2xl font-semibold mb-3 text-gray-800">Unified Social Sharing: Post Once, Reach Everywhere</h3>
             <p className="text-gray-600 mb-4 leading-relaxed">
-              Stop the multi-platform juggling act. With Eurikaa&apos;s <span className="font-bold">integrated social sharing</span>, you post once, and we&apos;ll automatically share it across your other connected social media accounts. Keep your entire audience in the loop effortlessly, saving you time and ensuring your message reaches every follower, everywhere.
+              Stop the multi-platform juggling act. With eurikaa&apos;s <span className="font-bold">integrated social sharing</span>, you post once, and we&apos;ll automatically share it across your other connected social media accounts. Keep your entire audience in the loop effortlessly, saving you time and ensuring your message reaches every follower, everywhere.
             </p>
             
           </div>

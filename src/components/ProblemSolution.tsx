@@ -12,7 +12,7 @@ const ProblemSolution: React.FC = () => {
           However, one essential element is missing to truly bring these stories to life: <strong className="text-blue-600">Precise Location.</strong>
         </p>
         <h3 className="text-2xl sm:text-3xl font-semibold mb-4 text-purple-600">
-          Introducing Eurikaa: Your World, Precisely Mapped.
+          Introducing eurikaa: Your World, Precisely Mapped.
         </h3>
         <p className="text-lg text-gray-600 leading-relaxed">
           Every post is linked to a precise GPS location. Why is precise location important?

@@ -25,10 +25,10 @@ const HeroSection = () => {
         {/* Text content on the right - Modernized Typography and Layout */}
         <div className="text-center md:text-left p-4">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-6 leading-tight animate-fade-in-down">
-            Eurikaa: Where every post becomes a <span className="text-yellow-300">destination</span>.
+            eurikaa: Where every post becomes a <span className="text-yellow-300">destination</span>.
           </h1>
           <p className="text-lg sm:text-xl text-blue-100 mb-8 leading-relaxed max-w-xl md:max-w-none mx-auto animate-fade-in-up">
-            Eurikaa is a location-driven social app designed for mobile vendors, travel
+            eurikaa is a location-driven social app designed for mobile vendors, travel
             influencers, and explorers, providing an optimized platform for
             connecting people through place. Unlike traditional social media,
             it puts location at the heart of content and discovery, making

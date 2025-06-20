@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* About Eurikaa / Parallel Zero */}
           <div>
-            <h3 className="text-xl font-semibold text-white mb-3">Eurikaa by Parallel Zero</h3>
+            <h3 className="text-xl font-semibold text-white mb-3">eurikaa by Parallel Zero</h3>
             <p className="text-sm leading-relaxed">
               Revolutionizing how people connect with places, turning every shared experience into a discoverable destination.
             </p>

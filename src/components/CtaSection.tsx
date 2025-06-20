@@ -19,10 +19,10 @@ const CtaSection: React.FC = () => {
         />        
         
         <h2 className="text-4xl sm:text-5xl font-extrabold mb-6 leading-tight">
-          Ready to Explore with <span className="text-blue-300">Eurikaa</span>?
+          Ready to Explore with <span className="text-blue-300">eurikaa</span>?
         </h2>
         <p className="text-lg sm:text-xl text-indigo-100 mb-10 max-w-2xl mx-auto leading-relaxed">
-          Download Eurikaa today and start transforming your posts into engaging, discoverable destinations.
+          Download eurikaa today and start transforming your posts into engaging, discoverable destinations.
           Connect with the world in a whole new, location-based way.
         </p>
         
